@@ -75,7 +75,7 @@ namespace DesktopClock
 
             Timer secondTimer = new Timer();
             secondTimer.Interval = 1000; //wait one second
-            secondTimer.Elapsed += new ElapsedEventHandler(SecondUpdatedEvent);
+            secondTimer.Elapsed += new ElapsedEventHandler(SecondHandTickEvent);
             secondTimer.AutoReset = true;
 
              // Start Timer
@@ -119,7 +119,7 @@ namespace DesktopClock
             UpdateMinute();
         }
 
-        private void SecondUpdatedEvent(object source, ElapsedEventArgs e)
+        private void SecondHandTickEvent(object source, ElapsedEventArgs e)
         {
             if (_time.Second == 59)
             {
