@@ -1,0 +1,10 @@
+C:\Users\brenn\source\repos\DesktopClock\bin\Debug\DesktopClock.exe.config
+C:\Users\brenn\source\repos\DesktopClock\bin\Debug\DesktopClock.exe
+C:\Users\brenn\source\repos\DesktopClock\bin\Debug\DesktopClock.pdb
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.csprojAssemblyReference.cache
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.Properties.Resources.resources
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.csproj.GenerateResource.cache
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.csproj.CoreCompileInputs.cache
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.exe
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.pdb
+C:\Users\brenn\source\repos\DesktopClock\obj\Debug\DesktopClock.Clock.resources
