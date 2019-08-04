@@ -10,8 +10,6 @@ namespace DesktopClock
     class ClockInternals
     {
         private Time _time;
-
-        public bool IsRunning = false;
         private enum TimerType { minute, hour}
         public Time CurrentTime {
             get
@@ -43,7 +41,6 @@ namespace DesktopClock
         }
         public struct Time
         {
-            
             public int Hour;
             public int Minute;
             public int Second;
@@ -71,8 +68,6 @@ namespace DesktopClock
 
         public void Run()
         {
-            IsRunning = true;
-
             Timer secondTimer = new Timer();
             secondTimer.Interval = 1000; //wait one second
             secondTimer.Elapsed += new ElapsedEventHandler(SecondHandTickEvent);
@@ -80,8 +75,6 @@ namespace DesktopClock
 
              // Start Timer
             secondTimer.Start();
-
-
         }
         public void UpdateHour()
         {

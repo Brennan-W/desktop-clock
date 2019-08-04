@@ -41,7 +41,7 @@ namespace DesktopClock
             this.labelSecond.Text = _currentSecond;
 
             System.Timers.Timer timer = new System.Timers.Timer();
-            timer.Interval = 100; //wait one minute
+            timer.Interval = 100; //wait 100 miliseconds
             timer.Elapsed += new System.Timers.ElapsedEventHandler(OnTimedEvent);
             timer.AutoReset = true;
             timer.Start();
